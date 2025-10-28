@@ -7,9 +7,10 @@ import Home from "./components/Home";
 function App() {
     return (
         <div className="App">
+            <div className="text-gray-800">
             <Navbar />
             <Home />
-        
+        </div>
         </div>
 
     );
